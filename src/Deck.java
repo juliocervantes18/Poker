@@ -33,7 +33,7 @@ class Deck {
         if (!cartas.isEmpty()) {
             int index = new Random().nextInt(cartas.size());
             System.out.println("Se retiro esta carta: " + cartas.remove(index).toString());
-            System.out.println("Quedan " + cartas.size() + " cartas en el deck.");
+            System.out.println("Y quedan " + cartas.size() + " cartas en el deck.");
         } else {
             System.out.println("No quedan cartas en el deck.");
         }
