@@ -8,7 +8,7 @@ class Carta {
         this.color = color;
         this.valor = valor;
     }
-
+    @Override
     public String toString() {
         return palo + "," + color + "," + valor;
     }
